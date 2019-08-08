@@ -156,18 +156,18 @@ function draw() {
 	ctx.beginPath();
 	ctx.fillStyle = "#A6E22E";
 	ctx.font = "15px Arial";
-	ctx.fillText("Movement", 36, 70);
+	ctx.fillText("2nd Move", 36, 70);
 	ctx.closePath();
 
 	ctx.beginPath();
 	ctx.fillStyle = "#F8F8F2";
 	ctx.font = "15px Arial";
-	ctx.fillText("-", 112, 70);
+	ctx.fillText("-", 108, 70);
 	ctx.closePath();
 
 	ctx.beginPath();
 	ctx.fillStyle = is_movement_1?"#66D9EF":"#F92672";
-	ctx.fillText(is_movement_1?"True":"False", 122, 70);
+	ctx.fillText(is_movement_1?"True":"False", 118, 70);
 	ctx.closePath();
 
 }
